@@ -1,6 +1,6 @@
 # 家庭用电多变量时间序列预测实验报告
 
-> GitHub 链接：[TODO：提交前请替换为自己的仓库链接。](https://github.com/Jerry0819/machine_learning_final)
+> GitHub 链接：[machine_learning_final_url](https://github.com/Jerry0819/machine_learning_final)
 
 ## 1. 问题介绍
 
