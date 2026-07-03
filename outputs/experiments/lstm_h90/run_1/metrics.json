@@ -1,0 +1,16 @@
+{
+  "mse": 142570.890625,
+  "mae": 289.81103515625,
+  "run": 1,
+  "seed": 2026,
+  "horizon": 90,
+  "best_val_loss": 0.18388313055038452,
+  "final_train_loss": 0.33701447397470474,
+  "final_val_loss": 0.20632044970989227,
+  "epochs_trained": 31,
+  "train_windows": 705,
+  "val_windows": 124,
+  "test_windows": 344,
+  "num_parameters": 151771,
+  "device": "cuda"
+}

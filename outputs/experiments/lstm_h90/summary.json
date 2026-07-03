@@ -1,0 +1,12 @@
+{
+  "model": "LSTM",
+  "horizon": 90,
+  "runs": 5,
+  "mse_mean": 145127.609375,
+  "mse_std": 5163.951603527498,
+  "mae_mean": 291.33131103515626,
+  "mae_std": 5.256103573326526,
+  "best_val_loss_mean": 0.18025798797607423,
+  "epochs_trained_mean": 38.2,
+  "num_parameters": 151771
+}

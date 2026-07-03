@@ -1,0 +1,65 @@
+{
+  "selection_metric": "mean validation MAE across horizons",
+  "best_candidate": "baseline_regularized",
+  "best_config": {
+    "name": "baseline_regularized",
+    "d_model": 96,
+    "nhead": 4,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "lr": 0.0003,
+    "weight_decay": 0.001,
+    "huber_beta": 0.5,
+    "input_noise": 0.01
+  },
+  "summary": [
+    {
+      "candidate": "baseline_regularized",
+      "val_score": 282.1345977783203,
+      "val_mse_mean": 142528.07421875,
+      "mse_mean": 140975.875,
+      "mae_mean": 287.82476806640625,
+      "epochs_mean": 32.0
+    },
+    {
+      "candidate": "strong_regularization",
+      "val_score": 282.3568649291992,
+      "val_mse_mean": 141740.4296875,
+      "mse_mean": 139749.234375,
+      "mae_mean": 286.8114013671875,
+      "epochs_mean": 38.5
+    },
+    {
+      "candidate": "deeper_slow",
+      "val_score": 282.9281921386719,
+      "val_mse_mean": 142528.98828125,
+      "mse_mean": 139711.203125,
+      "mae_mean": 286.4507598876953,
+      "epochs_mean": 49.5
+    },
+    {
+      "candidate": "medium_dropout",
+      "val_score": 283.0764465332031,
+      "val_mse_mean": 142828.9765625,
+      "mse_mean": 140551.1796875,
+      "mae_mean": 287.2107849121094,
+      "epochs_mean": 28.0
+    },
+    {
+      "candidate": "low_noise_mse_like",
+      "val_score": 285.00189208984375,
+      "val_mse_mean": 143323.203125,
+      "mse_mean": 149648.75,
+      "mae_mean": 297.7179260253906,
+      "epochs_mean": 34.5
+    },
+    {
+      "candidate": "small_fast",
+      "val_score": 287.02374267578125,
+      "val_mse_mean": 144916.77734375,
+      "mse_mean": 136921.828125,
+      "mae_mean": 284.3097381591797,
+      "epochs_mean": 33.5
+    }
+  ]
+}

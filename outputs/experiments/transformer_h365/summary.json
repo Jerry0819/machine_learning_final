@@ -1,0 +1,14 @@
+{
+  "model": "Transformer",
+  "horizon": 365,
+  "runs": 5,
+  "mse_mean": 145429.828125,
+  "mse_std": 5433.001364691099,
+  "mae_mean": 294.81231689453125,
+  "mae_std": 6.103243770763046,
+  "val_mse_mean": 206102.484375,
+  "val_mae_mean": 340.3222900390625,
+  "best_val_loss_mean": 0.33514088988304136,
+  "epochs_trained_mean": 48.0,
+  "num_parameters": 242899
+}

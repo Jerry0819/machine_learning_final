@@ -1,0 +1,2 @@
+mse,mae,run,seed,horizon,best_val_loss,final_train_loss,final_val_loss,epochs_trained,train_windows,val_windows,test_windows,num_parameters,device
+241998.546875,385.0130310058594,1,2026,365,0.46788397431373596,0.5136501379311085,0.46788397431373596,1,471,83,69,178446,cuda

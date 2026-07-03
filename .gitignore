@@ -1,0 +1,8 @@
+﻿individual+household+electric+power+consumption/
+MENSQ_*.csv
+MENSQ_*.csv.gz
+processed/
+*.pkl
+*.joblib
+__pycache__/
+.ipynb_checkpoints/

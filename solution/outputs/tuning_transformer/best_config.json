@@ -1,0 +1,59 @@
+{
+  "selection_metric": "mean best_val_loss across horizons",
+  "best_candidate": "low_noise_mse_like",
+  "best_config": {
+    "name": "low_noise_mse_like",
+    "d_model": 128,
+    "nhead": 4,
+    "num_layers": 2,
+    "dropout": 0.25,
+    "lr": 0.0002,
+    "weight_decay": 0.0005,
+    "huber_beta": 1.0,
+    "input_noise": 0.005
+  },
+  "summary": [
+    {
+      "candidate": "low_noise_mse_like",
+      "val_score": 0.16221405193209648,
+      "mse_mean": 149648.75,
+      "mae_mean": 297.7179260253906,
+      "epochs_mean": 34.5
+    },
+    {
+      "candidate": "strong_regularization",
+      "val_score": 0.25173626840114594,
+      "mse_mean": 139749.234375,
+      "mae_mean": 286.8114013671875,
+      "epochs_mean": 38.5
+    },
+    {
+      "candidate": "baseline_regularized",
+      "val_score": 0.25181832909584045,
+      "mse_mean": 140975.875,
+      "mae_mean": 287.82476806640625,
+      "epochs_mean": 32.0
+    },
+    {
+      "candidate": "deeper_slow",
+      "val_score": 0.252686582505703,
+      "mse_mean": 139711.203125,
+      "mae_mean": 286.4507598876953,
+      "epochs_mean": 49.5
+    },
+    {
+      "candidate": "medium_dropout",
+      "val_score": 0.2529975324869156,
+      "mse_mean": 140551.1796875,
+      "mae_mean": 287.2107849121094,
+      "epochs_mean": 28.0
+    },
+    {
+      "candidate": "small_fast",
+      "val_score": 0.2578718811273575,
+      "mse_mean": 136921.828125,
+      "mae_mean": 284.3097381591797,
+      "epochs_mean": 33.5
+    }
+  ]
+}

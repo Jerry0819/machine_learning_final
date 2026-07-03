@@ -1,0 +1,73 @@
+{
+  "selection_metric": "mean validation MAE across horizons",
+  "best_candidate": "lr_0004",
+  "best_config": {
+    "name": "lr_0004",
+    "d_model": 96,
+    "nhead": 4,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "lr": 0.0004,
+    "weight_decay": 0.001,
+    "huber_beta": 0.5,
+    "input_noise": 0.01
+  },
+  "summary": [
+    {
+      "candidate": "lr_0004",
+      "val_score": 280.7326126098633,
+      "val_mse_mean": 141518.9609375,
+      "mse_mean": 143034.609375,
+      "mae_mean": 291.2969970703125,
+      "epochs_mean": 29.0
+    },
+    {
+      "candidate": "baseline_regularized",
+      "val_score": 282.1345977783203,
+      "val_mse_mean": 142528.07421875,
+      "mse_mean": 140975.875,
+      "mae_mean": 287.82476806640625,
+      "epochs_mean": 32.0
+    },
+    {
+      "candidate": "wd_0015",
+      "val_score": 282.13463592529297,
+      "val_mse_mean": 142527.83984375,
+      "mse_mean": 140974.609375,
+      "mae_mean": 287.82354736328125,
+      "epochs_mean": 32.0
+    },
+    {
+      "candidate": "wd_0007",
+      "val_score": 282.1346435546875,
+      "val_mse_mean": 142528.21875,
+      "mse_mean": 140976.421875,
+      "mae_mean": 287.8252868652344,
+      "epochs_mean": 32.0
+    },
+    {
+      "candidate": "dropout_035",
+      "val_score": 282.6987991333008,
+      "val_mse_mean": 141874.83984375,
+      "mse_mean": 140987.1171875,
+      "mae_mean": 287.6422119140625,
+      "epochs_mean": 38.5
+    },
+    {
+      "candidate": "lr_00025",
+      "val_score": 282.9004211425781,
+      "val_mse_mean": 142462.66796875,
+      "mse_mean": 140171.9375,
+      "mae_mean": 287.5490264892578,
+      "epochs_mean": 38.5
+    },
+    {
+      "candidate": "dropout_025",
+      "val_score": 283.8930358886719,
+      "val_mse_mean": 143184.9375,
+      "mse_mean": 141281.2421875,
+      "mae_mean": 288.24278259277344,
+      "epochs_mean": 34.5
+    }
+  ]
+}

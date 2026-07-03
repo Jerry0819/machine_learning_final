@@ -1,0 +1,14 @@
+{
+  "model": "MSConvTransformer",
+  "horizon": 90,
+  "runs": 5,
+  "mse_mean": 144153.075,
+  "mse_std": 7021.685925579098,
+  "mae_mean": 289.890380859375,
+  "mae_std": 7.728876803656395,
+  "val_mse_mean": 80936.4984375,
+  "val_mae_mean": 228.2554718017578,
+  "best_val_loss_mean": 0.17424465119838714,
+  "epochs_trained_mean": 31.0,
+  "num_parameters": 283233
+}
